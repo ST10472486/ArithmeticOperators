@@ -40,12 +40,12 @@ public class ArithemticOptions {
 
         } else if (operation.equals("/")) {
             JOptionPane.showMessageDialog(null,
-                "Division-> (" + val1 + "/" + val2 + ") = " + (val1 / val2)
+                "Division-> (" + val1 + "/" + val2 + "/" + val3 + ") = " + (val1 / val2 / val3)
                 + sumAvg);
 
         } else if (operation.equals("%")) {
             JOptionPane.showMessageDialog(null,
-                "Remainder-> (" + val1 + "%" + val2 + ") = " + (val1 % val2)
+                "Remainder-> (" + val1 + "%" + val2 + "%" + val3 + ") = " + (val1 % val2 %val3)
                 + sumAvg);
 
         } else {
